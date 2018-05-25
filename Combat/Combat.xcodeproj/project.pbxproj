@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3C680720ADC1600003197E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C680620ADC1600003197E /* AppDelegate.swift */; };
+		2F3C680920ADC1600003197E /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C680820ADC1600003197E /* CampaignViewController.swift */; };
+		2F3C680B20ADC1600003197E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C680A20ADC1600003197E /* Assets.xcassets */; };
+		2F3C680E20ADC1600003197E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C680C20ADC1600003197E /* Main.storyboard */; };
+		2F3C681A20ADC1CE0003197E /* DbConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C681920ADC1CE0003197E /* DbConnection.swift */; };
+		2F6C916F20AE3190004317D5 /* SaveCampaignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C916E20AE3190004317D5 /* SaveCampaignVC.swift */; };
+		2F7A735920B477E8004B1BB7 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A735820B477E8004B1BB7 /* SourceViewController.swift */; };
+		2F7A735B20B47801004B1BB7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A735A20B47801004B1BB7 /* DetailViewController.swift */; };
+		2F7A735F20B4A48F004B1BB7 /* TableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A735E20B4A48F004B1BB7 /* TableType.swift */; };
+		2F7A736A20B6ED7F004B1BB7 /* SourceViewPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A736920B6ED7F004B1BB7 /* SourceViewPopover.swift */; };
+		2F7A736C20B74BB3004B1BB7 /* PlayerMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A736B20B74BB3004B1BB7 /* PlayerMonster.swift */; };
+		2F7A736E20B7506D004B1BB7 /* PlayerMonsterSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A736D20B7506D004B1BB7 /* PlayerMonsterSegue.swift */; };
+		2FC9545F20AF6E0B0048BB8A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9545E20AF6E0B0048BB8A /* ContainerViewController.swift */; };
+		2FC9546120AF72750048BB8A /* CrossfadeStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9546020AF72750048BB8A /* CrossfadeStoryboardSegue.swift */; };
+		2FC9546320B348250048BB8A /* saveDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9546220B348250048BB8A /* saveDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F3C680320ADC1600003197E /* Combat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3C680620ADC1600003197E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F3C680820ADC1600003197E /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		2F3C680A20ADC1600003197E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3C680D20ADC1600003197E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F3C680F20ADC1600003197E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3C681020ADC1600003197E /* Combat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Combat.entitlements; sourceTree = "<group>"; };
+		2F3C681920ADC1CE0003197E /* DbConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbConnection.swift; sourceTree = "<group>"; };
+		2F6C916E20AE3190004317D5 /* SaveCampaignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCampaignVC.swift; sourceTree = "<group>"; };
+		2F7A735820B477E8004B1BB7 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		2F7A735A20B47801004B1BB7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2F7A735E20B4A48F004B1BB7 /* TableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableType.swift; sourceTree = "<group>"; };
+		2F7A736920B6ED7F004B1BB7 /* SourceViewPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewPopover.swift; sourceTree = "<group>"; };
+		2F7A736B20B74BB3004B1BB7 /* PlayerMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMonster.swift; sourceTree = "<group>"; };
+		2F7A736D20B7506D004B1BB7 /* PlayerMonsterSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMonsterSegue.swift; sourceTree = "<group>"; };
+		2FC9545E20AF6E0B0048BB8A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		2FC9546020AF72750048BB8A /* CrossfadeStoryboardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossfadeStoryboardSegue.swift; sourceTree = "<group>"; };
+		2FC9546220B348250048BB8A /* saveDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3C680020ADC1600003197E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3C67FA20ADC1600003197E = {
+			isa = PBXGroup;
+			children = (
+				2F3C680520ADC1600003197E /* Combat */,
+				2F3C680420ADC1600003197E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3C680420ADC1600003197E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C680320ADC1600003197E /* Combat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3C680520ADC1600003197E /* Combat */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C681820ADC1AE0003197E /* Model */,
+				2F3C681720ADC1A30003197E /* Controller */,
+				2F3C680C20ADC1600003197E /* Main.storyboard */,
+				2F3C680F20ADC1600003197E /* Info.plist */,
+				2F3C681020ADC1600003197E /* Combat.entitlements */,
+				2F3C680A20ADC1600003197E /* Assets.xcassets */,
+				2F3C681620ADC1930003197E /* Support Files */,
+			);
+			path = Combat;
+			sourceTree = "<group>";
+		};
+		2F3C681620ADC1930003197E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C680620ADC1600003197E /* AppDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		2F3C681720ADC1A30003197E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A736B20B74BB3004B1BB7 /* PlayerMonster.swift */,
+				2F3C680820ADC1600003197E /* CampaignViewController.swift */,
+				2F6C916E20AE3190004317D5 /* SaveCampaignVC.swift */,
+				2F7A735C20B479A9004B1BB7 /* Segues and ContainerViews */,
+				2F7A735D20B479CB004B1BB7 /* split Views */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F3C681820ADC1AE0003197E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C681920ADC1CE0003197E /* DbConnection.swift */,
+				2FC9546220B348250048BB8A /* saveDelegate.swift */,
+				2F7A735E20B4A48F004B1BB7 /* TableType.swift */,
+				2F7A736920B6ED7F004B1BB7 /* SourceViewPopover.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F7A735C20B479A9004B1BB7 /* Segues and ContainerViews */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A736D20B7506D004B1BB7 /* PlayerMonsterSegue.swift */,
+				2FC9546020AF72750048BB8A /* CrossfadeStoryboardSegue.swift */,
+				2FC9545E20AF6E0B0048BB8A /* ContainerViewController.swift */,
+			);
+			path = "Segues and ContainerViews";
+			sourceTree = "<group>";
+		};
+		2F7A735D20B479CB004B1BB7 /* split Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A735A20B47801004B1BB7 /* DetailViewController.swift */,
+				2F7A735820B477E8004B1BB7 /* SourceViewController.swift */,
+			);
+			path = "split Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3C680220ADC1600003197E /* Combat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3C681320ADC1600003197E /* Build configuration list for PBXNativeTarget "Combat" */;
+			buildPhases = (
+				2F3C67FF20ADC1600003197E /* Sources */,
+				2F3C680020ADC1600003197E /* Frameworks */,
+				2F3C680120ADC1600003197E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Combat;
+			productName = Combat;
+			productReference = 2F3C680320ADC1600003197E /* Combat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3C67FB20ADC1600003197E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tyler Arnold";
+				TargetAttributes = {
+					2F3C680220ADC1600003197E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F3C67FE20ADC1600003197E /* Build configuration list for PBXProject "Combat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3C67FA20ADC1600003197E;
+			productRefGroup = 2F3C680420ADC1600003197E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3C680220ADC1600003197E /* Combat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3C680120ADC1600003197E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3C680B20ADC1600003197E /* Assets.xcassets in Resources */,
+				2F3C680E20ADC1600003197E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3C67FF20ADC1600003197E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7A735B20B47801004B1BB7 /* DetailViewController.swift in Sources */,
+				2FC9546320B348250048BB8A /* saveDelegate.swift in Sources */,
+				2F3C680920ADC1600003197E /* CampaignViewController.swift in Sources */,
+				2F7A736C20B74BB3004B1BB7 /* PlayerMonster.swift in Sources */,
+				2F7A736A20B6ED7F004B1BB7 /* SourceViewPopover.swift in Sources */,
+				2FC9546120AF72750048BB8A /* CrossfadeStoryboardSegue.swift in Sources */,
+				2F3C680720ADC1600003197E /* AppDelegate.swift in Sources */,
+				2F7A735F20B4A48F004B1BB7 /* TableType.swift in Sources */,
+				2FC9545F20AF6E0B0048BB8A /* ContainerViewController.swift in Sources */,
+				2F7A736E20B7506D004B1BB7 /* PlayerMonsterSegue.swift in Sources */,
+				2F7A735920B477E8004B1BB7 /* SourceViewController.swift in Sources */,
+				2F3C681A20ADC1CE0003197E /* DbConnection.swift in Sources */,
+				2F6C916F20AE3190004317D5 /* SaveCampaignVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F3C680C20ADC1600003197E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3C680D20ADC1600003197E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3C681120ADC1600003197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F3C681220ADC1600003197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2F3C681420ADC1600003197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Combat/Combat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8AX3U27SG;
+				INFOPLIST_FILE = Combat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Combat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2F3C681520ADC1600003197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Combat/Combat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8AX3U27SG;
+				INFOPLIST_FILE = Combat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Combat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3C67FE20ADC1600003197E /* Build configuration list for PBXProject "Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3C681120ADC1600003197E /* Debug */,
+				2F3C681220ADC1600003197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3C681320ADC1600003197E /* Build configuration list for PBXNativeTarget "Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3C681420ADC1600003197E /* Debug */,
+				2F3C681520ADC1600003197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3C67FB20ADC1600003197E /* Project object */;
+}
